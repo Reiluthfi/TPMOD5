@@ -1,7 +1,10 @@
-﻿public class Program
+class program
 {
-    public static void Main()
+    static void Main()
     {
+        DataGeneric<int> dataNIM = new DataGeneric<int>(112);
+        dataNIM.PrintData();
+
         HaloGeneric.SapaUser<string>("Reiluthfi SW");
     }
 }
